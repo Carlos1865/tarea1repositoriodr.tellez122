@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    flex-direction: column; 
+}
+.circulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.circulo-p{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+.circulo1 {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+}
+
+.circulo2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.circulo3 {
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+}
+
+.circulo4 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.circulo5 {
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+}
+
+.circulo6 {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+}
+
+.circulo7 {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+.nombre{
+    font-size: 20px;
+    color: rgb(7, 212, 127);
+}
